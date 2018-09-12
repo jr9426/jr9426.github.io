@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>京东商城</title>
+    <link rel="stylesheet" href="base.css">
+    <link rel="stylesheet" href="jd.css">
+</head>
+<script>
+    window.onload = function () {
+
+
+        var fl = document.getElementsByClassName("fl")[0];
+        var ds = document.getElementById("destination");
+        var i = document.getElementsByTagName("i")[0];
+        fl.onmouseover = function () {
+            ds.className = "show";
+        };
+        fl.onmouseout = function () {
+            ds.className = "hide";
+        };
+
+    };
+</script>
+<body>
+    <!--nav开始-->
+    <div class="site-nav">
+        <div class="w">
+            <div class="fl">
+                送至：北京
+                <s><i>◇</i></s>
+            <div id="destination" class="hide"></div>
+        </div>
+            <div class="fr">
+            <ul>
+                <li class="li1"><a href="#">您好，请登录</a></li>
+                <li class="li2"><a href="#">免费注册</a></li>
+                <li class="li2"><a href="#">我的订单</a></li>
+                <li class="line"></li>
+                <li class="li2"><a href="#">我的京东</a></li>
+                <li class="line"></li>
+                <li class="li2"><a href="#">京东会员</a></li>
+                <li class="line"></li>
+                <li class="li2"><a href="#">企业采购</a></li>
+                <li class="line"></li>
+                <li class="li2"><a href="#">手机京东</a></li>
+                <li class="line"></li>
+                <li class="li2"><a href="#">关注京东</a></li>
+                <li class="line"></li>
+                <li class="li2"><a href="#">客户服务</a></li>
+                <li class="line"></li>
+                <li class="li2"><a href="#">网站导航</a></li>
+                <li class="line"></li>
+
+            </ul>
+        </div>
+        </div>
+
+        <!--nav结束-->
+        <!--top-banner开始-->
+        <div class="w">
+            <div>
+                 <a><img src="images/top-banner.jpg" width="100%"></a>
+            </div>
+        </div>
+        <!--top-banner结束-->
+        <!--search开始-->
+        <div class="w">
+            <div class="logo">
+                <a><img src="images/logo.png" ></a>
+            </div>
+            <div class="zj">
+                <div class="top">
+                    <ul>
+                        <li><input id="input" type="text" value="beer"></li>
+                        <li><button id="btn">搜索</button></li>
+                    </ul>
+                </div>
+                <div class="behind">
+
+                    <ul>
+                        <li class="xb">111111</li>
+                        <li class="xb">222222</li>
+                        <li class="xb">333333</li>
+                        <li class="xb">444444</li>
+                        <li class="xb">555555</li>
+                        <li class="xb">666666</li>
+                        <li class="xb">777777</li>
+                        <li class="xb">888888</li>
+                        <li class="xb">999999</li>
+                        <li class="xb">100000</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="yb">我的购物车</div>
+        </div>
+        <!--search结束-->
+    </div>
+
+
+
+
+</body>
+</html>
